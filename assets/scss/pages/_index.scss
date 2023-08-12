@@ -1,0 +1,19 @@
+.main {
+  width: calc(100vw - #{$sidebar-width});
+  // background-color: aqua;
+}
+.hover:hover {
+  color: $primary !important;
+}
+
+.page-item .page-link {
+  border-radius: 0;
+}
+
+#verifiedMail::placeholder {
+  text-align: center;
+}
+
+.deactivate:focus {
+  box-shadow: none;
+}
